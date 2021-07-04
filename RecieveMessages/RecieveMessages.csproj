@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <UserSecretsId>dotnet-RecieveMessages-536B126D-EF97-4E8C-B724-011958F60217</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.0-preview.5.21301.5" />
+  </ItemGroup>
+</Project>
